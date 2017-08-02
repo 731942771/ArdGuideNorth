@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#66ccff"
+        android:gravity="center"
+        android:text="收藏"
+        android:textSize="14dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/keep_count"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:background="#cfcfcf"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="收藏数量：0" />
+
+        <ListView
+            android:id="@+id/keep_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="9"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

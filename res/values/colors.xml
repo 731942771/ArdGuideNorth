@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="barclick">#777777</color>
+    <color name="barunclick">#aaaaaa</color>
+    <color name="msgclick">#8fac42</color>
+    <color name="msgunclick">#555555</color>
+</resources>

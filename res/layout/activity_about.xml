@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#66ccff"
+        android:gravity="center"
+        android:text="关于本应用"
+        android:textSize="14dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.cuiweiyou.ardguidenorth.view.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/avrter"
+                app:civ_border_color="#ff9900"
+                app:civ_border_width="2dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="20dp"
+                android:background="#77cfcfcf"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="作者：崔维友" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="20dp"
+                android:background="#77cfcfcf"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="邮箱：vigiles@163.com" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="20dp"
+                android:background="#77cfcfcf"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="站点：cuiweiyou.com" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="20dp"
+                android:background="#77cfcfcf"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="这是一个开源项目\nhttps://git.oschina.net/vigiles/ArdGuideNorth" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="20dp"
+                android:background="#77cfcfcf"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="本应用使用的开源圆形图片：\nhttps://github.com/hdodenhof/CircleImageView" />
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="#77cfcfcf"
+                android:gravity="center_vertical"
+                android:textColor="#ff0000"
+                android:paddingLeft="10dp"
+                android:text="警告：\n当前版本全部数据需要连接网络获取" />
+        </LinearLayout> 
+    </ScrollView>
+
+</LinearLayout>
