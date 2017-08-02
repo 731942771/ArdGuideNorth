@@ -1,4 +1,4 @@
-2016-06-22 12:47发布于oschina，http://git.oschina.net/vigiles/ArdGuideNorth<br/>
+2016-06-22 12:47发布于oschina，h t t p : / / g i t . oschina.net/vigiles/ArdGuideNorth<br/>
 
 # ArdGuideNorth 
  ![github](ic_launcher-web.png "安卓开发指北")
